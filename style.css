@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(0, 145, 255, 0.684);
+    height: 50px;
+}
+.logo{
+    display: flex;
+    height: 40px;
+    width: 150px;
+}
+nav{
+    display: flex;
+    float: right;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-right: 10px;
+    background-color: white;
+}
+.menu:active{
+    background-color: rgba(85, 82, 82, 0.79);
+}
+.colo{
+    position: relative;
+    top: 30px;
+    height: 300px;
+    background-image: linear-gradient(pink,blue ,yellow );
+}
+#poco{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+#popo{
+    float: right;
+}
+#poso{
+    position: relative;
+    top: 90px;
+}
+input{
+    height: 34px;
+    width: 120px;
+    background-color: rgb(14, 119, 224);
+    color: black;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.model{
+    height: 300px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 220px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+.box:hover{
+    box-shadow: 3px 3px 8px 2px black;
+}
+#jadu{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 150px;
+    height: 70px;
+}
+.text{
+    padding-left: 32px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.buton{
+    position: relative;
+    top: 0px;
+    color: white;
+    background-color: black;
+    left: 22px;
+}
+.bottom{
+    height: 40px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media (min-width:340px) and (max-width:415px) {
+    header{
+        height: 70px;
+    }
+    nav{
+        display: none;
+    }
+    .logo{
+        height: 70px;
+        width: 40px;
+    }
+    .colo{
+        display: block;
+        height: 400px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #popo{
+        position: relative;
+        top: 70px;
+        left: 30px;
+       float: none;
+    }
+    .man{
+        width: 300px;
+
+    }
+    .sadda{
+        height: 47px;
+
+    }
+    .model{
+        display: block;
+    }
+    .box{
+        width: 250px;
+        position: relative;
+        left: 60px;
+        margin-top: 20px;
+
+    }
+    .bottom{
+        position: relative;
+        top: 710px;
+    }
+    
+}
